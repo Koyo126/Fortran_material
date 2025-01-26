@@ -11,6 +11,7 @@ with warnings.catch_warnings():
         #nml['ave']['nfile'] = 1
         nml['ave']['nfile'] *= 2  ### double nfile
         nml['ave']['avetype'] = 0
+        nml['ave']['var'] = [x * 2 for x in nml['ave']['var']]
         nml['initial']['start'] = True
 
         # 変更したネームリストをファイルに書き込む

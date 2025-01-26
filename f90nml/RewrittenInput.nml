@@ -1,6 +1,7 @@
 &ave
     nfile = 128
     avetype = 0
+    var = 2, 6, 10, 14, 18
 /
 
 &initial

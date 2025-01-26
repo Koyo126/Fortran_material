@@ -1,5 +1,6 @@
 &ave
-nfile = 64, avetype = 2
+nfile = 64, avetype = 2, 
+var = 1, 3, 5, 7, 9, 
 &
 
 &initial
