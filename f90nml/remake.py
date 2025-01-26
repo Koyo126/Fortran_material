@@ -8,7 +8,8 @@ with warnings.catch_warnings():
         nml = f90nml.read('./Input.nml')
 
         # 変数を変更する
-        nml['ave']['nfile'] = 1
+        #nml['ave']['nfile'] = 1
+        nml['ave']['nfile'] *= 2  ### double nfile
         nml['ave']['avetype'] = 0
         nml['initial']['start'] = True
 
