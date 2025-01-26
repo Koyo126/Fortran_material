@@ -1,0 +1,8 @@
+&ave
+    nfile = 1
+    avetype = 0
+/
+
+&initial
+    start = .true.
+/

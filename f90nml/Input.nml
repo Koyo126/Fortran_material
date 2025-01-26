@@ -1,0 +1,7 @@
+&ave
+nfile = 64, avetype = 2
+&
+
+&initial
+start = .false.
+&
