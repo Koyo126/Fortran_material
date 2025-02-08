@@ -7,3 +7,7 @@
 &initial
     start = .true.
 /
+
+&scf
+    zimageplane = -15.0, 15.0
+/
