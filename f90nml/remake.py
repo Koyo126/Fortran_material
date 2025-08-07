@@ -15,6 +15,9 @@ with warnings.catch_warnings():
         nml['initial']['start'] = True
         nml['scf']['zImagePlane'] = [-15.0, 15.0]  ### array
 
+        # 変数の削除
+        del nml['scf']['mode']
+
         # 変更したネームリストをファイルに書き込む
         nml.write('./RewrittenInput.nml', force=True)
 

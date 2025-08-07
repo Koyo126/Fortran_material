@@ -8,4 +8,5 @@ start = .false.
 &
 
 &scf
+mode = 1
 &
